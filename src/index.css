@@ -2,15 +2,16 @@
   position: absolute;
   font-family: 'Inter', sans-serif;
   max-width: 100vw;
-  /* min-height: 100vh; */
+  min-height: 100vh;
   /* height: 100%; */
   margin: 0;
   top: 0px;
   left: 0px;
   /* background: #06ec81; */
-  background-image: url('https://burst.shopifycdn.com/photos/blue-water-and-white-cliffs-surrounded-by-trees.jpg?width=1200&format=pjpg&exif=1&iptc=1');
+  background-image: url('https://wallpapers.com/images/featured/hd-a5u9zq0a0ymy2dug.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  /* background-size:contain; */
 }
 
 .navbar{
@@ -144,6 +145,10 @@
     font-size: 11px;
   }
 
+  footer > p{
+    font-size: 6px;
+  }
+
   
 }
 
@@ -151,7 +156,7 @@ footer{
   position: relative;
   width: 85%;
   margin-left: 7.5%;
-  bottom: 10px;
+  bottom: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
